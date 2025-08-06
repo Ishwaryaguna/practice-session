@@ -1,0 +1,15 @@
+Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        int sum=0;
+        int pr=1;
+        while(n>0)
+        {
+           int d=n%10;
+           sum+=d;
+           pr*=d;
+           n=n/10;
+        }
+        if(sum==pr)
+            System.out.println("Spy Number");
+        else
+            System.out.println("Not a Spy Number");
