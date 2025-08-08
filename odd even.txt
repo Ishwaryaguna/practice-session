@@ -14,7 +14,7 @@ public class Solution {
         {
             arr[i]=sc.nextInt();
             if(arr[i]%2==0)
-                 c++;
+                 e++;
             else 
                  o++;
             
@@ -22,4 +22,5 @@ public class Solution {
             System.out.println(e);
             System.out.println(o);
     }
+
 }
